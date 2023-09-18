@@ -13,7 +13,7 @@ export const Blob = ({ route = '/', ...props }) => {
   useCursor(hovered)
   return (
     <mesh
-      onClick={() => router.push(route)}
+      // onClick={() => router.push(route)}
       onPointerOver={() => hover(true)}
       onPointerOut={() => hover(false)}
       {...props}>
